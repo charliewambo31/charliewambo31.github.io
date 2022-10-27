@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href ="ligne_nature.jpg"> 
+
+    <title>CSS</title>
+</head>
+<nav style="display: inline-flex; ">
+  <a style= 'margin-left: 10px' href="/index.html"><h2>ACCUEIL</h2></a>
+  <a style= 'margin-left: 10px' href="/HTML/html.html"><h2>HTML</h2></a>
+  <a style= 'margin-left: 10px' href="/CSS/css.html"><h2>CSS</h2></a>
+  <a style= 'margin-left: 10px' href="/JAVASCRIPT/javascript.html"><h2>JAVASCRIPT</h2></a>
+  <a style= 'margin-left: 10px'  href="/WEBAPI/webapi.html"><h2>WEBAPI</h2></a>
+</nav> 
+<body>
+
+<h2>TABLEAU 3x3</h2>
+<table style="width:100%">
+  <tr>
+    <th class="blanc">PROGRAMMATION</th>
+    <td id="#blue":>
+      <form>
+          Cochez les categories de jeux de societe que vous aimez :<br>
+          <input type="checkbox" name="Jeu de cartes "> 
+          <label>Jeu de cartes </label><br>
+          <input type="checkbox" name="Jeu de Role">
+           <label>Jeu de Role</label><br>
+          <input type="checkbox" name="Jeu de Construction">
+          <label>Jeu de Construction</label><br>
+          <input type="checkbox" name="Jeu de Strategie"> 
+          <label>Jeu de Strategie</label>
+          </p>
+      </form>
+    </td>
+    <td> 
+      <form>
+        <p>
+        <label>Votre pseudo :</label>
+        <input type="text" name="pseudo" id="pseudo"><br>
+        <label>Votre mot de passe :</label>
+        <input type="password" name="pass" id="pass">
+        </p>
+      </form>
+    </td>
+  </tr>
+  <tr>
+    <th><button>CSS</button></th>
+    <td id="orange":>FRONTEND</td>
+    <td>    
+      <form>
+        <input type="date">
+        <input type="color">
+      </form> </td>
+  </tr>
+  <tr>
+    <th>  
+      <form>
+        <p>
+          <label>Dans quel pays habitez-vous ?</label><br>
+          <select name="pays" id="pays">
+          <optgroup label="Europe">
+            <option value="france">France</option>
+            <option value="espagne">Espagne</option>
+            <option value="italie">Italie</option>
+            <option value="royaume-uni">Royaume-Uni</option>
+          </optgroup>
+          <optgroup label="Amérique">
+            <option value="canada">Canada</option>
+            <option value="etats-unis">Etats-Unis</option>
+          </optgroup>
+          <optgroup label="Asie">
+            <option value="chine">Chine</option>
+            <option value="japon">Japon</option>
+          </optgroup>
+          </select>
+        </p>
+      </form>
+    </th>
+    <td>
+      <form>
+        <p>
+          <label>Comment pensez-vous que je pourrais améliorer mon site ?</label><br>
+          <textarea name="ameliorer" id="ameliorer"></textarea>
+        </p>
+      </form>
+    </td>
+    <td>
+      <form style="display:inline";>
+        <p>
+          Veuillez indiquer la tranche d'âge dans laquelle vous vous
+          situez :<br>
+          <input type="radio" name="age" value="moins15"> 
+          <label>Moins de 15 ans</label><br>
+          <input type="radio" name="age" value="medium15-25"> 
+          <label>15-25 ans</label><br>
+          <input type="radio" name="age" value="medium25-40"> 
+          <label>25-40 ans</label><br>
+          <input type="radio" name="age" value="plus40">
+          <label >Encore plus vieux que ça ?!</label>
+        </p>
+      </form>
+    </td>
+  </tr>
+ </table>
+</body>
+<footer> 
+  <p> @copyright charlie wambo</p>
+</footer>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.html">
+    <link rel="shortcut icon" href ="IMAGE_SOMME.webp"> 
+
+    <title>HTML</title>
+    <style>
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+  </head>
+  <nav style="display: inline-flex; ">
+    <a style= 'margin-left: 10px' href="/index.html"><h2>ACCUEIL</h2></a>
+    <a style= 'margin-left: 10px' href="/HTML/html.html"><h2>HTML</h2></a>
+    <a style= 'margin-left: 10px' href="/CSS/css.html"><h2>CSS</h2></a>
+    <a style= 'margin-left: 10px' href="/JAVASCRIPT/javascript.html"><h2>JAVASCRIPT</h2></a>
+    <a style= 'margin-left: 10px'  href="/WEBAPI/webapi.html"><h2>WEBAPI</h2></a>
+  </nav> 
+
+<h1>Notes de cours HTML</h1>
+
+<table id="customers">
+  <tr>
+    <th>Balises HTML</th>
+    <th>Description</th>
+    <th>Exemples</th>
+  </tr>
+  <tr>
+    <td> &lsaquo; b &rsaquo; 
+    </td>
+    <td>transforme le texte en caracteres gras
+    </td>
+    <td><b>Texte gras</b>
+    </td>
+  </tr>
+  <tr>
+    <td> &lsaquo; strong &rsaquo; 
+    </td>
+    <td>indique une section importante et la transforme en gras
+    </td>
+    <td>j'aime <strong>mon</strong> chien
+    </td>
+  </tr>
+  <tr>
+    <td> &lsaquo; u &rsaquo; 
+    </td>
+    <td>souligne le texte 
+    </td>
+    <td><u>Montreal est une ville du Quebec</u>
+    </td>
+  </tr>
+  <tr>
+    <td> &lsaquo; i &rsaquo;
+    </td>
+    <td>transforme le texte en caracteres italique
+    </td>
+    <td><i>Montreal est une ville du Quebec</i>
+    </td>
+  </tr>
+  <tr>
+    <td> &lsaquo; p &rsaquo;
+    </td>
+    <td>Debut d'un paragraphe,saute 2 lignes
+    </td>
+    <td><p>Montreal</p> est une ville du <p>Quebec</p>
+    </td>
+  </tr>
+  <tr>
+    <td> &lsaquo; li &rsaquo;
+    </td>
+    <td>
+      <p>Element d'une liste</p>
+      <p>encadre par les balises&lsaquo; ol &rsaquo; OU &lsaquo; ul &rsaquo;</p>
+    </td>
+    <td>Voir les exemples
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo; ol &rsaquo;
+    </td>
+    <td>Liste numerotee(encadre ;la balise&lsaquo; il &rsaquo;) 
+    </td>
+    <td>
+      <ol>
+        <li>pain</li>
+        <li>lait</li>
+        <li>ouefs</li>
+      </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;ul &rsaquo;
+    </td>
+    <td>liste non numerotee( encadre la balise&lsaquo;li &rsaquo;) 
+    </td>
+    <td>
+      <ul>
+        <li>pain</li>
+        <li>lait</li>
+        <li>ouefs</li>
+    </ul>
+  </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;hi &rsaquo;
+    </td>
+    <td>Titre de niveau i avec i allant de 1 a 6
+    </td>
+    <td>
+      <p><h1>CANADA</h1></p>
+      <p><h1><b>Bonjour</h1></p>
+      <p><h2>CANADA</h2></p>
+      <p><h6>CANADA</h6>
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;head &rsaquo;
+    </td>
+    <td><p>En-tete d'un fichier html</p>
+        <p>Encadre les balises &lsaquo;titre &rsaquo;,&lsaquo;meta &rsaquo; et&lsaquo;base &rsaquo;</p>
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;Meta &rsaquo;
+    </td>
+    <td>Information sur la page
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;title &rsaquo;
+    </td>
+    <td>Titre du document HTML
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;html &rsaquo;
+    </td>
+    <td>Obligatoire au debut et a la fin du fichier HTML
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;body &rsaquo;
+    </td>
+    <td>Encadre le corps d'un fichier HTML
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;footer &rsaquo;
+    </td>
+    <td>pied de ma page
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;img &rsaquo;
+    </td>
+    <td>insertion d'une image
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;td &rsaquo;</td>
+    <td>Nouvelle cellule dans un tableau
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo; tr &rsaquo;
+    </td>
+    <td>Nouvelle ligne dans un tableau
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo; th &rsaquo;
+    </td>
+    <td>Cellule d'en tete d'un tableau
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;nav &rsaquo;
+    </td>
+    <td>barre de navigation
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;table &rsaquo;
+    </td>
+    <td>tableau
+    </td>
+  </tr>
+  <tr>
+    <td>&lsaquo;div &rsaquo;
+    </td>
+    <td>implemente une feuille de style par bloc entier
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

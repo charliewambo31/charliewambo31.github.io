@@ -1,0 +1,45 @@
+ li {
+    display: inline;
+    margin-left: 50px;
+    margin-right: 150px;
+    color:red;
+}
+
+#body-header{
+    background-color:yellowgreen;   
+}
+ 
+
+table  {
+    border:1px solid black;
+    background-color:black;
+    margin-top: 50px;
+  }
+  th {
+    border:1px solid black;
+    background-color:greenyellow;
+    font-size: 100%;
+    height: 100px;
+    text-align:center;
+     padding: 10px;
+  }
+   td {
+    border:1px solid black;
+    background-color:yellowgreen;
+    height: 100px;
+    text-align:center;
+    padding: 10px;
+  }
+  
+  #orange{
+    background-color:orange;
+  }
+  
+  #blue{
+    background-color:blueviolet;
+    }
+  
+  
+  .blanc{
+    background-color:white;
+  }

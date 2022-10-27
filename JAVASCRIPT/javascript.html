@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <script src="imc.js"> </script>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="imc.js">
+    <link rel="shortcut icon" href ="imageJavascript.jpg"> 
+    <meta charset="UTF-8">
+    <title>IMC</title>
+</head>
+<nav style="display: inline-flex; ">
+    <a style= 'margin-left: 10px' href="/index.html"><h2>ACCUEIL</h2></a>
+    <a style= 'margin-left: 10px' href="/HTML/html.html"><h2>HTML</h2></a>
+    <a style= 'margin-left: 10px' href="/CSS/css.html"><h2>CSS</h2></a>
+    <a style= 'margin-left: 10px' href="/JAVASCRIPT/javascript.html"><h2>JAVASCRIPT</h2></a>
+    <a style= 'margin-left: 10px'  href="/WEBAPI/webapi.html"><h2>WEBAPI</h2></a>
+  </nav> 
+<body>
+    <h1>Projet de Calculatrice IMC</h1>
+    <form id="imc">
+        <label >entrez une taille en m:
+        </label><br>
+        <input type="number"  step="any" id="taille" name="taille" ><br>
+        <label >entrez un poids en kg:
+        </label><br>
+        <input type="number" step="any" id="poids" name="poids" ><br>        
+    </form>
+    <h2>
+        <div id="resultat">
+        </div>
+    </h2>
+   <div id="boutton_imc">
+        <input type = "button" value = "calcul metrique IMC" id = "id2" onclick = "calcul_metric_imc()"/>
+    </div>
+
+
+    <script src='./imc.js'></script>
+</body>
+</html>
